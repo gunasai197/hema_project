@@ -1,24 +1,19 @@
 {
-  "name": "@angular/common",
+  "name": "@angular/compiler",
   "version": "8.2.14",
-  "description": "Angular - commonly needed directives and services",
-  "main": "./bundles/common.umd.js",
-  "module": "./fesm5/common.js",
-  "es2015": "./fesm2015/common.js",
-  "esm5": "./esm5/common.js",
-  "esm2015": "./esm2015/common.js",
-  "fesm5": "./fesm5/common.js",
-  "fesm2015": "./fesm2015/common.js",
-  "typings": "./common.d.ts",
+  "description": "Angular - the compiler library",
+  "main": "./bundles/compiler.umd.js",
+  "module": "./fesm5/compiler.js",
+  "es2015": "./fesm2015/compiler.js",
+  "esm5": "./esm5/compiler.js",
+  "esm2015": "./esm2015/compiler.js",
+  "fesm5": "./fesm5/compiler.js",
+  "fesm2015": "./fesm2015/compiler.js",
+  "typings": "./compiler.d.ts",
   "author": "angular",
   "license": "MIT",
   "dependencies": {
     "tslib": "^1.9.0"
-  },
-  "locales": "locales",
-  "peerDependencies": {
-    "rxjs": "^6.4.0",
-    "@angular/core": "8.2.14"
   },
   "repository": {
     "type": "git",
@@ -45,7 +40,7 @@
       "@angular/service-worker"
     ]
   },
-  "sideEffects": false,
+  "sideEffects": true,
   "publishConfig": {
     "registry": "https://wombat-dressing-room.appspot.com"
   }
